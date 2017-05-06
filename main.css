@@ -1,12 +1,16 @@
 body{
   background-image: url("Hintergrundbild.png");
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-size: cover;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #A0AAD; margin: 0; padding: 10px;
 }
-#text{background-color: white; width: 30%; margin: 200px auto;
+#text{background-color: white;
+  position: absolute;bottom: 30px;
+  right: 30px;
+  width: 30%;
   padding: 20px; border-radius: 50%;
   text-align: center;
 }
